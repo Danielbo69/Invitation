@@ -1,11 +1,10 @@
 body {
-    font-family: 'SourceSansPro-Regular', sans-serif;
     background-image: url(../img/Fondos\ vacíos/FondoHome.png);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
+
 
 .hero {
     width: 100%;
@@ -21,81 +20,96 @@ body {
     justify-content: center;
 }
 
+.titlesix-container{
+    display: flex;
+    justify-content: center;
+}
+
 .content-home {
     max-width: 320px;
 }
 
-.welcome-container img{
+.welcome-container img {
     width: 200px;
     margin-bottom: 0.3em;
 }
 
-.title-containaer img {
+.title-container img {
     width: 80px;
     margin-bottom: 0.3em;
 }
-.duo-containaer img {
+
+.duo-container img {
     width: 130px;
     margin-bottom: 0.3em;
 }
-.date-containaer img {
+
+.date-container img {
     width: 70px;
     margin-bottom: 0.3em;
 }
-.titleTwo-containaer img {
+
+.titleTwo-container img {
     width: 150px;
     margin-bottom: 0.3em;
 }
-.titileTree-containaer img {
+
+.titileTree-container img {
     width: 140px;
     margin-bottom: 0.3em;
 }
-.location-containaer img {
+
+.location-container img {
     width: 170px;
     margin-bottom: 0.3em;
 }
 
-.castle-containaer img{
+.castle-container img {
     width: 320px;
     margin-bottom: 0.3em;
 }
 
-.dinner-containaer img{
+.dinner-container img {
     width: 200px;
     margin-bottom: 0.3em;
 }
 
-.titlefour-containaer img{
+.titlefour-container img {
     width: 100px;
     margin-bottom: 0.3em;
 }
 
-.zipcode-containaer img{
+.zipcode-container img {
     width: 160px;
     margin-bottom: 0.3em;
 }
 
-.titlefive-containaer img{
+.titlefive-container img {
     width: 70px;
     margin-bottom: 0.3em;
 }
 
-.hour-containaer img{
-    width: 150px;
+.titlesix-container img{
+    width: 175px;
     margin-bottom: 0.3em;
 }
 
-.footer-containaer img{
- width: 100%;
+.hour-container img {
+    width: 220px;
+    margin-bottom: 0.3em;
 }
 
-@media only screen and (max-width:320px){
+.footer-container img {
+    width: 100%;
+}
+
+@media only screen and (max-width:320px) {
     .hero {
         height: 25vh;
     }
 }
 
-@media only screen and (min-width:360px) and (max-width:426px){
+@media only screen and (min-width:360px) and (max-width:426px) {
     .hero {
         height: 25vh;
     }
@@ -106,62 +120,73 @@ body {
     .hero {
         height: 65vh;
     }
-    .welcome-container img{
+
+    .welcome-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    
-    .title-containaer img {
+
+    .title-container img {
         width: 180px;
         margin-bottom: 0.3em;
     }
-    .duo-containaer img {
+
+    .duo-container img {
         width: 160px;
         margin-bottom: 0.3em;
     }
-    .date-containaer img {
+
+    .date-container img {
         width: 120px;
-        margin-bottom: 0.3em;
+        margin-bottom: 10.3em;
     }
-    .titleTwo-containaer img {
+
+    .titleTwo-container img {
         width: 220px;
         margin-bottom: 0.3em;
     }
-    .titileTree-containaer img {
+
+    .titileTree-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .location-containaer img {
+
+    .location-container img {
         width: 300px;
         margin-bottom: 0.3em;
     }
-    
-    .castle-containaer img{
+
+    .castle-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    
-    .dinner-containaer img{
+
+    .dinner-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    
-    .titlefour-containaer img{
+
+    .titlefour-container img {
         width: 200px;
         margin-bottom: 0.3em;
     }
-    
-    .zipcode-containaer img{
+
+    .zipcode-container img {
         width: 100%;
-        margin-bottom: 0.3em;
+        margin-bottom: 1.3em;
     }
-    
-    .titlefive-containaer img{
+
+    .titlefive-container img {
         width: 170px;
+        margin-bottom: 1.3em;
+    }
+
+    .titlesix-container img{
+        width: 270px;
         margin-bottom: 0.3em;
     }
-    
-    .hour-containaer img{
+
+    .hour-container img {
         width: 330px;
         margin-bottom: 0.3em;
     }
@@ -171,131 +196,155 @@ body {
     .hero {
         height: 90vh;
     }
-    .welcome-container img{
+
+    .welcome-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    
-    .title-containaer img {
+
+    .title-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .duo-containaer img {
+
+    .duo-container img {
+        width: 100%;
+        margin-bottom: 2.3em;
+    }
+
+    .date-container img {
+        width: 160px;
+        margin-bottom: 9.3em;
+    }
+
+    .titleTwo-container img {
+        width: 100%;
+        margin-bottom: 3.3em;
+    }
+
+    .titileTree-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .date-containaer img {
+
+    .location-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .titleTwo-containaer img {
+
+    .castle-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .titileTree-containaer img {
+
+    .dinner-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .location-containaer img {
+
+    .titlefour-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    
-    .castle-containaer img{
+
+    .zipcode-container img {
+        width: 100%;
+        margin-bottom: 1.3em;
+    }
+
+    .titlefive-container img {
+        width: 50%;
+        margin-bottom: 2.3em;
+    }
+
+    .titlesix-container img{
         width: 100%;
         margin-bottom: 0.3em;
     }
-    
-    .dinner-containaer img{
-        width: 100%;
-        margin-bottom: 0.3em;
-    }
-    
-    .titlefour-containaer img{
-        width: 100%;
-        margin-bottom: 0.3em;
-    }
-    
-    .zipcode-containaer img{
-        width: 100%;
-        margin-bottom: 0.3em;
-    }
-    
-    .titlefive-containaer img{
-        width: 100%;
-        margin-bottom: 0.3em;
-    }
-    
-    .hour-containaer img{
+
+    .hour-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
 }
 
-@media only screen and (min-width:1140px) and (max-width:1440px){
+@media only screen and (min-width:1140px) and (max-width:1440px) {
     .hero {
         height: 100vh;
     }
+
     .content-home {
         max-width: 100%;
     }
-    .welcome-container img{
+
+    .welcome-container img {
         width: 700px;
         margin-top: 5em;
         margin-bottom: 5em;
     }
-    
-    .title-containaer img {
+
+    .title-container img {
         width: 300px;
         margin-bottom: 5em;
     }
-    .duo-containaer img {
+
+    .duo-container img {
         width: 300px;
         margin-bottom: 5em;
     }
-    .date-containaer img {
+
+    .date-container img {
         width: 150px;
-        margin-bottom: 5em;
+        margin-bottom: 15em;
     }
-    .titleTwo-containaer img {
+
+    .titleTwo-container img {
         width: 320px;
         margin-bottom: 5em;
     }
-    .titileTree-containaer img {
+
+    .titileTree-container img {
         width: 300px;
         margin-bottom: 5em;
     }
-    .location-containaer img {
+
+    .location-container img {
         width: 200px;
         margin-bottom: 5em;
     }
-    
-    .castle-containaer img{
+
+    .castle-container img {
         width: 900px;
         margin-bottom: 5em;
     }
-    
-    .dinner-containaer img{
+
+    .dinner-container img {
         width: 100%;
         margin-bottom: 5em;
     }
-    
-    .titlefour-containaer img{
+
+    .titlefour-container img {
         width: 200px;
         margin-bottom: 5em;
     }
-    
-    .zipcode-containaer img{
+
+
+    .zipcode-container img {
         width: 350px;
         margin-bottom: 5em;
     }
-    
-    .titlefive-containaer img{
+
+    .titlefive-container img {
         width: 150px;
         margin-bottom: 5em;
     }
-    
-    .hour-containaer img{
+
+    .titlesix-container img {
+        width: 370px;
+        margin-bottom: 5em;
+    }
+
+    .hour-container img {
         width: 100%;
         margin-bottom: 5em;
     }
@@ -305,65 +354,77 @@ body {
     .hero {
         height: 100vh;
     }
+
     .content-home {
         max-width: 100%;
     }
-    .welcome-container img{
+
+    .welcome-container img {
         width: 100%;
         margin-bottom: 10em;
     }
-    
-    .title-containaer img {
+
+    .title-container img {
         width: 600px;
         margin-bottom: 10em;
     }
-    .duo-containaer img {
+
+    .duo-container img {
         width: 600px;
         margin-bottom: 10em;
     }
-    .date-containaer img {
+
+    .date-container img {
         width: 300px;
         margin-bottom: 10em;
     }
-    .titleTwo-containaer img {
+
+    .titleTwo-container img {
         width: 620px;
         margin-bottom: 10em;
     }
-    .titileTree-containaer img {
+
+    .titileTree-container img {
         width: 600px;
         margin-bottom: 10em;
     }
-    .location-containaer img {
+
+    .location-container img {
         width: 350px;
         margin-bottom: 10em;
     }
-    
-    .castle-containaer img{
+
+    .castle-container img {
         width: 100%;
         margin-bottom: 10em;
     }
-    
-    .dinner-containaer img{
+
+    .dinner-container img {
         width: 100%;
         margin-bottom: 10em;
     }
-    
-    .titlefour-containaer img{
+
+    .titlefour-container img {
         width: 400px;
         margin-bottom: 10em;
     }
-    
-    .zipcode-containaer img{
+
+    .zipcode-container img {
         width: 700px;
         margin-bottom: 10em;
     }
-    
-    .titlefive-containaer img{
+
+    .titlefive-container img {
         width: 300px;
         margin-bottom: 10em;
     }
-    
-    .hour-containaer img{
+
+    .titlesix-container img {
+        width: 700px;
+        margin-bottom: 10em;
+    }
+
+    .hour-container img {
         width: 100%;
         margin-bottom: 10em;
     }

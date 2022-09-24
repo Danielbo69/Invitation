@@ -165,6 +165,10 @@
     }
 }
 
+.nav-link {
+    font-family: 'Amatic', serif !important;
+}
+
 .nav-link.active, .nav-link:active {
     border-bottom: 1px solid #f27474;
     color: #f27474  !important;
