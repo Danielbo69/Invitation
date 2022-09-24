@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup</title>
+    <!-- icono -->
+    <link rel="icon" href="../img/anillos-de-boda.png">
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/makeup.css">
+    <link rel="stylesheet" href="../css/loader.css">
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!-- cdn sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <!--Símbolo de Carga-->
+    <div id="contenedor_loader">
+        <div class="loader" id="loader"></div>
+    </div>
+    <nav class="navbar navbar-expand-lg" id="home">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#top" id="top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" onclick="showBodyToggle()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                        aria-label="Close" onclick="closeBodyToggle()"></button>
+                </div>
+                <div class="offcanvas" id="offcanvas">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" style="margin: 0px -15em 0px 0em;">
+                            <a class="nav-link" aria-current="page"  href="./home.html">Home</a>
+                        </li>
+                        <!-- <li class="nav-item" style="margin: 0px -15em 0px 0em;" >
+                            <a class="nav-link" href="#home">Makeup</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="./rsvp.html">RVSP</a>
+                        </li>
+                        <li class="nav-item" style="margin: 0px -15em 0px 0em;">
+                            <a class="nav-link" href="./gift.html">GIFT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./accommodation.html">Accommodation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="offcanvas-body" id="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Makeup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./accommodation.html">Accommodation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./rsvp.html">RVSP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gift.html">GIFT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="navlogo">
+        <img src="../img/Navbar barra.png" alt=""></img>
+    </div>
+    <header class="hero">
+        <section class="hero_container container"></section>
+    </header>
+    <div class="main-container">
+        <div class="makeup-container container">
+            <div class="title-container col-lg">
+                <img src="../img/Fefi - Hair and makeup/Suggested makeup and styling.png" alt="">
+            </div>
+            <br>
+            <br>
+            <div class="InstaC-container col-lg">
+                <a href="https://www.instagram.com/cesarcerami/" target="_blank" rel="noopener noreferrer">
+                    <img src="../img/Fefi - Hair and makeup/CESAR CERAMI SALON.png" alt="" data-toggle="tooltip" title="CESAR CERAMI">
+                </a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="vipsalon-container">
+                <a href="https://www.instagram.com/vipsalondoral/" target="_blank" rel="noopener noreferrer">
+                    <img src="../img/Fefi - Hair and makeup/VIP SALON DORAL.png" alt="" data-toggle="tooltip" title="VIP SALON DORAL">
+                </a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="tatimakeup-container">
+                <a href="https://www.instagram.com/tatimakeupstudio/" target="_blank" rel="noopener noreferrer">
+                    <img src="../img/Fefi - Hair and makeup/TATI MAKEUP STUDIO.png" alt="" data-toggle="tooltip" title="TATI MAKEUP STUDIO">
+                </a>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-containaer col-lg">
+            <img src="../img/Fefi - Home/Surprise footer.png" alt="">
+        </div>
+    </footer>
+    <a href="#home" class="btn-wsp">
+        <img src="../img/up.svg" alt="up">
+    </a>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
