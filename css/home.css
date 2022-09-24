@@ -97,7 +97,7 @@ body {
 
 @media only screen and (min-width:360px) and (max-width:426px){
     .hero {
-        height: 35vh;
+        height: 25vh;
     }
 }
 
@@ -112,19 +112,19 @@ body {
     }
     
     .title-containaer img {
-        width: 100%;
+        width: 180px;
         margin-bottom: 0.3em;
     }
     .duo-containaer img {
-        width: 100%;
+        width: 160px;
         margin-bottom: 0.3em;
     }
     .date-containaer img {
-        width: 100%;
+        width: 120px;
         margin-bottom: 0.3em;
     }
     .titleTwo-containaer img {
-        width: 100%;
+        width: 220px;
         margin-bottom: 0.3em;
     }
     .titileTree-containaer img {
@@ -132,7 +132,7 @@ body {
         margin-bottom: 0.3em;
     }
     .location-containaer img {
-        width: 100%;
+        width: 300px;
         margin-bottom: 0.3em;
     }
     
@@ -147,7 +147,7 @@ body {
     }
     
     .titlefour-containaer img{
-        width: 100%;
+        width: 200px;
         margin-bottom: 0.3em;
     }
     
@@ -157,12 +157,12 @@ body {
     }
     
     .titlefive-containaer img{
-        width: 100%;
+        width: 170px;
         margin-bottom: 0.3em;
     }
     
     .hour-containaer img{
-        width: 100%;
+        width: 330px;
         margin-bottom: 0.3em;
     }
 }
