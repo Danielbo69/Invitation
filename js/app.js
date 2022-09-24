@@ -1,16 +1,3 @@
-/* A JavaScript object. */
-// let ip = 'http://localhost:8080/';
-// let path = 'fefi&stevenWedding/app/';
-
-// var SERVER = ip + path;
-
-// var endpoints = {
-// 		login		:	SERVER + 'index.html',
-// 		home		: 	SERVER + 'screens/home.html',
-// 		makeupStyle	: 	SERVER + 'screens/makeupStyle.html',
-// 		accommodation	:	SERVER + 'src/brand/accommodation.html',
-// };
-
 let usuario = {
     pass: 'Stevenyfefi2022!'
 }
