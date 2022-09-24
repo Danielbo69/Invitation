@@ -147,7 +147,7 @@ body {
 
 }
 
-@media only screen and (min-width:977px) and (max-width:1067px) {
+@media only screen and (min-width:977px) and (max-width:1080px) {
     .hero {
         height: 20vh !important;
     }
