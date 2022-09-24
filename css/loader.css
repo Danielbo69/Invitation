@@ -115,7 +115,7 @@
     }
 }
 
-@media only screen and (min-width:240px) and (max-width:393px){
+@media only screen and (min-width:240px) and (max-width:392px){
     .navlogo {
         height: 85px;
         display: flex;
@@ -123,7 +123,7 @@
         align-items: end;
     }
 }
-@media only screen and (min-width:411px) and (max-width:599px){
+@media only screen and (min-width:393px) and (max-width:599px){
     .navlogo {
         height: 95px;
         display: flex;
