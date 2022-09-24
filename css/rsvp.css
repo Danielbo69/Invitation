@@ -60,96 +60,79 @@ body {
     }
 
     .title-container img {
-        width: 220px;
-    }
-
-    .InstaC-container img {
-        width: 120px;
+        width: 125px;
     }
 
     .vipsalon-container img {
-        width: 120px;
+        width: 150px;
     }
 
     .tatimakeup-container img {
-        width: 120px;
+        width: 150px;
     }
 
 }
 
 @media only screen and (min-width:360px) and (max-width:424px) {
     .hero {
-        height: 10vh !important;
+        height: 5vh !important;
     }
 
     .title-container img {
-        width: 250px;
-    }
-
-    .InstaC-container img {
-        width: 140px;
+        width: 150px;
     }
 
     .vipsalon-container img {
-        width: 140px;
+        width: 150px;
     }
 
     .tatimakeup-container img {
-        width: 140px;
+        width: 150px;
     }
 
 }
 
 @media only screen and (min-width:425px) and (max-width:767px) {
     .hero {
-        height: 15vh !important;
+        height: 10vh !important;
     }
 
     .title-container img {
-        width: 250px;
-    }
-
-    .InstaC-container img {
-        width: 180px;
+        width: 150px;
     }
 
     .vipsalon-container img {
-        width: 140px;
+        width: 170px;
     }
 
     .tatimakeup-container img {
-        width: 140px;
+        width: 170px;
     }
 
 }
 
 @media only screen and (min-width:768px) and (max-width:976px) {
     .hero {
-        height: 25vh !important;
+        height: 18vh !important;
     }
 
     .title-container img {
-        width: 450px;
-    }
-
-    .InstaC-container img {
-        width: 200px;
-        margin-top: 5em;
+        width: 300px;
     }
 
     .vipsalon-container img {
-        width: 200px;
+        width: 280px;
     }
 
     .tatimakeup-container img {
-        width: 200px;
+        width: 280px;
     }
 
 }
 
 @media only screen and (min-width:977px) and (max-width:1080px) {
     .hero {
-        height: 23vh !important;
+        height: 8vh !important;
     }
 
     .main-container a {
@@ -157,25 +140,21 @@ body {
     }
 
     .title-container img {
-        width: 550px;
-    }
-
-    .InstaC-container img {
-        width: 260px;
+        width: 450px;
     }
 
     .vipsalon-container img {
-        width: 260px;
+        width: 420px;
     }
 
     .tatimakeup-container img {
-        width: 260px;
+        width: 420px;
     }
 }
 
 @media only screen and (min-width:1140px) and (max-width:1440px) {
     .hero {
-        height: 45vh !important;
+        height: 10vh !important;
     }
 
     .main-container a {
@@ -183,11 +162,7 @@ body {
     }
 
     .title-container img {
-        width: 800px;
-    }
-
-    .InstaC-container img {
-        width: 380px;
+        /* width: 800px; */
     }
 
     .vipsalon-container img {
@@ -195,7 +170,7 @@ body {
     }
 
     .tatimakeup-container img {
-        width: 380px;
+        /* width: 380px; */
     }
 }
 
@@ -209,18 +184,13 @@ body {
     }
 
     .title-container img {
-        width: 100%;
-    }
-
-    .InstaC-container img {
-        width: 100%;
-    }
-
-    .vipsalon-container img {
-        /* width: 100%; */
+        width: 90%;
     }
 
     .tatimakeup-container img {
+        width: 100%;
+    }
+    .vipsalon-container img {
         width: 100%;
     }
 }
