@@ -174,7 +174,7 @@
         /* height: 95px; */
     }
     .navbar {
-        height: 15% !important;
+        height: 9% !important;
     }
 }
 @media only screen and (min-width:1024px) and (max-width:1439px){
@@ -190,7 +190,7 @@
         /* height: 110px; */
     }
     .navbar {
-        height: 25% !important;
+        height: 20% !important;
     }
 }
 
