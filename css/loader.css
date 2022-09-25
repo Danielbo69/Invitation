@@ -115,15 +115,15 @@
     }
 }
 
-@media only screen and (min-width:240px) and (max-width:392px){
+@media only screen and (min-width:240px) and (max-width:352px){
     .navlogo {
-        height: 85px;
+        height: 90px;
         display: flex;
         justify-content: center;
         align-items: end;
     }
 }
-@media only screen and (min-width:393px) and (max-width:599px){
+@media only screen and (min-width:353px) and (max-width:411px){
     .navlogo {
         height: 95px;
         display: flex;
@@ -131,39 +131,61 @@
         align-items: end;
     }
 }
-@media only screen and (min-width:600px) and (max-width:700px){
+@media only screen and (min-width:412px) and (max-width:599px){
     .navlogo {
-        height: 110px;
+        height: 105px;
         display: flex;
         justify-content: center;
         align-items: end;
     }
 }
-@media only screen and (min-width:1441px) and (max-width:2560px){
+@media only screen and (min-width:601px) and (max-width:800px){
     .navlogo {
-        height: 110px;
+        height: 165px;
         display: flex;
         justify-content: center;
         align-items: end;
     }
     .navbar-expand-lg {
-        height: 30% !important;
+        height: 90px !important;
     }
 }
-
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width:1024px) {
     .navbar-expand-lg {
         flex-wrap: nowrap;
         justify-content: flex-start;
-        height: 122px; 
+        height: 155px; 
     }
     .navlogo {
-        height: 100%;
+        height: 215px;
         display: flex;
         justify-content: center;
         align-items: end;
     }
 }
+@media only screen and (min-width:1440px) and (max-width:2559px){
+    .navlogo {
+        height: 300px !important;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .navbar-expand-lg {
+        height: 240px !important;
+    }
+}
+@media only screen and (min-width:2560px){
+    .navlogo {
+        /* height: 300px !important; */
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .navbar-expand-lg {
+        height: 420px !important;
+    }
+}
+
 
 .nav-link {
     font-family: 'Amatic', serif !important;
