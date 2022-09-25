@@ -49,6 +49,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+.browaholics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer-containaer img {
     width: 100%;
@@ -64,15 +69,19 @@ body {
     }
 
     .InstaC-container img {
-        width: 120px;
+        width: 140px;
     }
 
     .vipsalon-container img {
-        width: 120px;
+        width: 125px;
     }
 
     .tatimakeup-container img {
-        width: 120px;
+        width: 130px;
+    }
+
+    .browaholics-container img {
+        width: 110px;
     }
 
 }
@@ -91,11 +100,14 @@ body {
     }
 
     .vipsalon-container img {
-        width: 140px;
+        width: 125px;
     }
 
     .tatimakeup-container img {
         width: 140px;
+    }
+    .browaholics-container img {
+        width: 120px;
     }
 
 }
@@ -114,11 +126,14 @@ body {
     }
 
     .vipsalon-container img {
-        width: 140px;
+        width: 125px;
     }
 
     .tatimakeup-container img {
-        width: 140px;
+        width: 135px;
+    }
+    .browaholics-container img {
+        width: 120px;
     }
 
 }
@@ -133,16 +148,19 @@ body {
     }
 
     .InstaC-container img {
-        width: 200px;
+        width: 160px;
         margin-top: 5em;
     }
 
     .vipsalon-container img {
-        width: 200px;
+        width: 140px;
     }
 
     .tatimakeup-container img {
-        width: 200px;
+        width: 150px;
+    }
+    .browaholics-container img {
+        width: 130px;
     }
 
 }
@@ -165,11 +183,14 @@ body {
     }
 
     .vipsalon-container img {
-        width: 260px;
+        width: 250px;
     }
 
     .tatimakeup-container img {
         width: 260px;
+    }
+    .browaholics-container img {
+        width: 240px;
     }
 }
 
@@ -187,15 +208,18 @@ body {
     }
 
     .InstaC-container img {
-        width: 380px;
+        /* width: 370px; */
     }
 
     .vipsalon-container img {
-        width: 380px;
+        /* width: 330px; */
     }
 
     .tatimakeup-container img {
-        width: 380px;
+        /* width: 370px; */
+    }
+    .browaholics-container img {
+        /* width: 300px; */
     }
 }
 
@@ -213,14 +237,17 @@ body {
     }
 
     .InstaC-container img {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .vipsalon-container img {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .tatimakeup-container img {
-        width: 100%;
+        /* width: 100%; */
+    }
+    .browaholics-container img {
+        /* width: 100%; */
     }
 }
