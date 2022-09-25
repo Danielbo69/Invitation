@@ -182,7 +182,7 @@
         /* height: 110px; */
     }
     .navbar {
-        height: 20% !important;
+        height: 100px !important;
     }
 }
 @media only screen and (min-width:1440px) and (max-width:2560px){
