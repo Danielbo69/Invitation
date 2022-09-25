@@ -150,18 +150,19 @@
 
 @media only screen and (min-width:240px) and (max-width:359px){
     .navlogo {
-        height: 85px;
+        height: 80px;
     }
     .navbar {
-        height: 9% !important;
+        height: 50px !important;
     }
 }
-@media only screen and (min-width:360px) and (max-width:412px){
+@media only screen and (min-width:360px) and (max-width:424px){
     .navlogo {
-        height: 100px;
+        height: 90px;
     }
     .navbar {
-        height: 9% !important;
+        height: 55px !important;
+        padding-top: 3px !important;
     }
 }
 @media only screen and (min-width:425px) and (max-width:700px){
@@ -174,7 +175,7 @@
         /* height: 95px; */
     }
     .navbar {
-        height: 9% !important;
+        height: 90px !important;
     }
 }
 @media only screen and (min-width:1024px) and (max-width:1439px){
@@ -185,13 +186,24 @@
         height: 100px !important;
     }
 }
-@media only screen and (min-width:1440px) and (max-width:2560px){
+
+@media only screen and (min-width:1440px) {
+    .navbar {
+        height: 20% !important;
+    }
+}
+
+@media only screen and (min-width:2560px){
     .navlogo {
         /* height: 110px; */
     }
     .navbar {
         height: 20% !important;
     }
+    .navbar-toggler-icon {
+        width: 3.5em !important;
+        height: 3.5em !important;
+    }    
 }
 
 .nav-link {
