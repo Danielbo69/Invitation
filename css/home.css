@@ -14,6 +14,10 @@ body {
     align-items: center;
 }
 
+.navlogo{
+    background-color: #fff !important;
+}
+
 .main-container {
     text-align: center;
     display: flex;
@@ -23,6 +27,11 @@ body {
 .titlesix-container{
     display: flex;
     justify-content: center;
+}
+.titleseven-container {
+    display: flex;
+    justify-content: center;
+
 }
 
 .content-home {
@@ -90,12 +99,16 @@ body {
 }
 
 .titlesix-container img{
-    width: 175px;
+    width: 180px;
     margin-bottom: 0.3em;
+}
+.titleseven-container img{
+    width: 70px;
+    margin-top: 0.5em;
 }
 
 .hour-container img {
-    width: 220px;
+    width: 250px;
     margin-bottom: 0.3em;
 }
 
@@ -182,12 +195,15 @@ body {
     }
 
     .titlesix-container img{
-        width: 270px;
+        width: 300px;
         margin-bottom: 0.3em;
     }
-
+    .titleseven-container img{
+        width: 100px;
+        margin-bottom: 0.3em;
+    }
     .hour-container img {
-        width: 330px;
+        width: 100%;
         margin-bottom: 0.3em;
     }
 }
@@ -261,7 +277,10 @@ body {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
+    .titleseven-container img{
+        width: 120px;
+        margin-bottom: 0.3em;
+    }
     .hour-container img {
         width: 100%;
         margin-bottom: 0.3em;
@@ -343,7 +362,10 @@ body {
         width: 370px;
         margin-bottom: 5em;
     }
-
+    .titleseven-container img{
+        width: 220px;
+        margin-bottom: 5em;
+    }
     .hour-container img {
         width: 100%;
         margin-bottom: 5em;
@@ -421,6 +443,11 @@ body {
 
     .titlesix-container img {
         width: 700px;
+        margin-bottom: 10em;
+    }
+
+    .titleseven-container img{
+        width: 300px;
         margin-bottom: 10em;
     }
 

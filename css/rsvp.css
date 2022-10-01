@@ -50,6 +50,12 @@ body {
     align-items: center;
 }
 
+.hazclick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-containaer img {
     width: 100%;
 }
@@ -68,7 +74,10 @@ body {
     }
 
     .tatimakeup-container img {
-        width: 150px;
+        width: 170px;
+    }
+    .hazclick img{
+        width: 60px;
     }
 
 }
@@ -87,7 +96,10 @@ body {
     }
 
     .tatimakeup-container img {
-        width: 150px;
+        width: 170px;
+    }
+    .hazclick img{
+        width: 60px;
     }
 
 }
@@ -108,6 +120,9 @@ body {
     .tatimakeup-container img {
         width: 170px;
     }
+    .hazclick img{
+        width: 60px;
+    }
 
 }
 
@@ -126,6 +141,9 @@ body {
 
     .tatimakeup-container img {
         width: 280px;
+    }
+    .hazclick img{
+        width: 95px;
     }
 
 }
@@ -150,6 +168,9 @@ body {
     .tatimakeup-container img {
         width: 420px;
     }
+    .hazclick img{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width:1140px) and (max-width:1440px) {
@@ -159,6 +180,9 @@ body {
 
     .main-container a {
         margin-top: 10em;
+    }
+    .hazclick img{
+        width: 100%;
     }
 }
 
@@ -172,13 +196,19 @@ body {
     }
 
     .title-container img {
-        width: 100%;
+        width: 800px;
+        margin-bottom: 5em;
     }
 
     .tatimakeup-container img {
-        width: 100%;
+        width: 900px;
+        margin-bottom: 5em;
     }
     .vipsalon-container img {
-        width: 100%;
+        width: 900px;
+    }
+    .hazclick img{
+        width: 400px;
+        margin-bottom: 5em;
     }
 }

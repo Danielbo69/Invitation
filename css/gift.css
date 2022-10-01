@@ -61,7 +61,7 @@ body {
     }
 
     .tatimakeup-container img {
-        width: 70px;
+        width: 65px;
     }
 
 }
@@ -142,6 +142,9 @@ body {
     .vipsalon-container img {
         width: 100%;
     }
+    .tatimakeup-container img {
+        width: 160px;
+    }
 }
 
 @media only screen and (min-width:1140px) and (max-width:1440px) {
@@ -160,6 +163,9 @@ body {
     .vipsalon-container img {
         width: 100%;
     }
+    .tatimakeup-container img {
+        width: 180px;
+    }
 }
 
 @media only screen and (min-width:1500px) and (max-width:2560px) {
@@ -172,10 +178,14 @@ body {
     }
 
     .InstaC-container img {
-        width: 100%;
+        width: 900px;
     }
 
     .vipsalon-container img {
-        width: 100%;
+        width: 900px;
+    }
+    .tatimakeup-container img {
+        width: 200px;
+        margin-top: 3em;
     }
 }
