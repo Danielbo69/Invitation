@@ -14,8 +14,8 @@ body {
     align-items: center;
 }
 
-.navlogo{
-    background-color: #fff !important;
+.navlogo {
+    background: linear-gradient(0deg, rgba(254, 254, 254, 0) 0%, rgba(255, 255, 255, 1) 47%);
 }
 
 .main-container {
@@ -24,10 +24,11 @@ body {
     justify-content: center;
 }
 
-.titlesix-container{
+.titlesix-container {
     display: flex;
     justify-content: center;
 }
+
 .titleseven-container {
     display: flex;
     justify-content: center;
@@ -98,11 +99,12 @@ body {
     margin-bottom: 0.3em;
 }
 
-.titlesix-container img{
+.titlesix-container img {
     width: 180px;
     margin-bottom: 0.3em;
 }
-.titleseven-container img{
+
+.titleseven-container img {
     width: 70px;
     margin-top: 0.5em;
 }
@@ -125,6 +127,7 @@ body {
     .hero {
         height: 25vh;
     }
+
     .rsvp-container img {
         width: 100px;
         margin-bottom: 0.3em;
@@ -197,19 +200,22 @@ body {
         margin-bottom: 1.3em;
     }
 
-    .titlesix-container img{
+    .titlesix-container img {
         width: 300px;
         margin-bottom: 0.3em;
     }
-    .titleseven-container img{
+
+    .titleseven-container img {
         width: 100px;
         margin-bottom: 0.3em;
     }
+
     .hour-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .rsvp-container img{
+
+    .rsvp-container img {
         width: 180px;
         margin-bottom: 0.3em;
     }
@@ -280,19 +286,22 @@ body {
         margin-bottom: 2.3em;
     }
 
-    .titlesix-container img{
+    .titlesix-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .titleseven-container img{
+
+    .titleseven-container img {
         width: 120px;
         margin-bottom: 0.3em;
     }
+
     .hour-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-    .rsvp-container img{
+
+    .rsvp-container img {
         width: 220px;
         margin-bottom: 0.3em;
     }
@@ -373,15 +382,18 @@ body {
         width: 370px;
         margin-bottom: 5em;
     }
-    .titleseven-container img{
+
+    .titleseven-container img {
         width: 220px;
         margin-bottom: 5em;
     }
+
     .hour-container img {
         width: 100%;
         margin-bottom: 5em;
     }
-    .rsvp-container img{
+
+    .rsvp-container img {
         width: 250px;
         margin-bottom: 5em;
     }
@@ -461,7 +473,7 @@ body {
         margin-bottom: 10em;
     }
 
-    .titleseven-container img{
+    .titleseven-container img {
         width: 300px;
         margin-bottom: 10em;
     }
@@ -470,7 +482,8 @@ body {
         width: 100%;
         margin-bottom: 10em;
     }
-    .rsvp-container img{
+
+    .rsvp-container img {
         width: 350px;
         margin-bottom: 10em;
     }
