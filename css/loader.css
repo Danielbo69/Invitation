@@ -86,14 +86,17 @@
 }
 
 .btn-wsp {
-    position: fixed;
     width: 60px;
     height: 60px;
-    line-height: 60px;
-    bottom: 20px;
-    right: 35px;
+    display: none;
     background: #f27474;
-    color: #FFF;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    line-height: 60px;
     border-radius: 50px;
     text-align: center;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
@@ -105,13 +108,16 @@
     position: fixed;
     padding: 20px;
     text-align: left;
-    text-align: center;
     z-index: 100;
     transition: all 300ms ease;
 }
 
 .btn-back img {
     width: 20px;
+}
+
+.btn-back img:hover {
+    width: 25px;
 }
 
 .btn-wsp img {

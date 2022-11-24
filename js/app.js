@@ -52,19 +52,19 @@ function closeBodyToggle() {
     div.style.display = 'none';
 }
 
-// window.addEventListener("scroll", (event) => {
-//     let scrollY = this.scrollY;
-//     let scrollX = this.scrollX;
-//     if(scrollX != 0 || scrollY != 0){
-//         let div = document.getElementById('home');
-//         div.style.position = 'absolute';
-//     } else if(scrollX == 0 || scrollY == 0) {
-//         let div = document.getElementById('home');
-//         div.style.position = 'fixed';
-//         div.style.top = '0';
-//         div.style.right = '0';
-//         div.style.left = '0';
-//         div.style.left = '0';
-//         div.style.zIndex = '1030';
-//     }
-// });
+$(document).ready(function() {
+    $('.top').click(function() {
+        $('body, html').animate({
+            scrollTop: '0px'
+        }, 300);
+    });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+            $('.top').slideDown(300);
+        } else {
+            $('.top').slideUp(300);
+        }
+    });
+
+});
