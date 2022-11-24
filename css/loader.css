@@ -89,14 +89,13 @@
     width: 60px;
     height: 60px;
     display: none;
-    background: #f27474;
-    font-size: 20px;
+    background: #9dbebc;
     color: #fff;
     cursor: pointer;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    line-height: 60px;
+    line-height: 55px;
     border-radius: 50px;
     text-align: center;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 30%);
@@ -129,7 +128,7 @@
 }
 
 .btn-wsp:hover {
-    background: #d36464;
+    background: #8daba9;
 }
 
 @media only screen and (min-width:320px) and (max-width:768px) {
@@ -157,6 +156,21 @@
 
 .navbar {
     padding-top: 5px !important;
+}
+
+
+/*Custom Scrollbar*/
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #9dbebc;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #8daba9;
 }
 
 @media only screen and (min-width:240px) and (max-width:359px) {
