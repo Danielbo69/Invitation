@@ -126,12 +126,6 @@ body {
     padding: 10px;
 }
 
-.uber-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .discount-container {
     width: 100%;
     display: flex;
@@ -152,10 +146,6 @@ body {
 
 .flower-container img {
     width: 20px;
-}
-
-.uber-container img {
-    width: 213px;
 }
 
 .discount-container img {
