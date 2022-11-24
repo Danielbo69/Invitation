@@ -5,7 +5,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
 .hero {
     width: 100%;
     height: 25vh;
@@ -32,7 +31,6 @@ body {
 .titleseven-container {
     display: flex;
     justify-content: center;
-
 }
 
 .content-home {
@@ -56,7 +54,7 @@ body {
 
 .date-container img {
     width: 70px;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
 }
 
 .titleTwo-container img {
@@ -72,6 +70,12 @@ body {
 .location-container img {
     width: 170px;
     margin-bottom: 0.3em;
+}
+
+.castle-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .castle-container img {
@@ -109,9 +113,57 @@ body {
     margin-top: 0.5em;
 }
 
+.hour-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flower-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.uber-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.discount-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.clickhere-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 .hour-container img {
-    width: 250px;
-    margin-bottom: 0.3em;
+    width: 350px;
+}
+
+.flower-container img {
+    width: 20px;
+}
+
+.uber-container img {
+    width: 213px;
+}
+
+.discount-container img {
+    width: 160px;
+}
+
+.clickhere-container img {
+    width: 60px;
 }
 
 .footer-container img {
@@ -127,97 +179,94 @@ body {
     .hero {
         height: 25vh;
     }
-
     .rsvp-container img {
         width: 100px;
         margin-bottom: 0.3em;
     }
 }
 
-
 @media only screen and (min-width:768px) and (max-width:976px) {
     .hero {
         height: 65vh;
     }
-
     .welcome-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .title-container img {
         width: 180px;
         margin-bottom: 0.3em;
     }
-
     .duo-container img {
         width: 160px;
         margin-bottom: 0.3em;
     }
-
     .date-container img {
         width: 120px;
         margin-bottom: 10.3em;
     }
-
     .titleTwo-container img {
         width: 220px;
         margin-bottom: 0.3em;
     }
-
     .titileTree-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .location-container img {
         width: 300px;
         margin-bottom: 0.3em;
     }
-
     .castle-container img {
-        width: 100%;
-        margin-bottom: 0.3em;
+        width: 700px;
+        margin-bottom: 0em;
     }
-
     .dinner-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .titlefour-container img {
         width: 200px;
         margin-bottom: 0.3em;
     }
-
     .zipcode-container img {
         width: 100%;
         margin-bottom: 1.3em;
     }
-
     .titlefive-container img {
         width: 170px;
         margin-bottom: 1.3em;
     }
-
     .titlesix-container img {
         width: 300px;
         margin-bottom: 0.3em;
     }
-
     .titleseven-container img {
         width: 100px;
         margin-bottom: 0.3em;
     }
-
     .hour-container img {
         width: 100%;
-        margin-bottom: 0.3em;
+        /* margin-bottom: 0.1em; */
     }
-
     .rsvp-container img {
         width: 180px;
         margin-bottom: 0.3em;
+    }
+    .hour-container img {
+        width: 450px;
+    }
+    .flower-container img {
+        width: 20px;
+    }
+    .uber-container img {
+        width: 280px;
+    }
+    .discount-container img {
+        width: 200px;
+    }
+    .clickhere-container img {
+        width: 80px;
     }
 }
 
@@ -225,85 +274,84 @@ body {
     .hero {
         height: 90vh;
     }
-
     .welcome-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .title-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .duo-container img {
         width: 100%;
         margin-bottom: 2.3em;
     }
-
     .date-container img {
         width: 160px;
         margin-bottom: 9.3em;
     }
-
     .titleTwo-container img {
         width: 100%;
         margin-bottom: 3.3em;
     }
-
     .titileTree-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .location-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .castle-container img {
-        width: 100%;
+        width: 700px;
         margin-bottom: 0.3em;
     }
-
     .dinner-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .titlefour-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .zipcode-container img {
         width: 100%;
         margin-bottom: 1.3em;
     }
-
     .titlefive-container img {
         width: 50%;
         margin-bottom: 2.3em;
     }
-
     .titlesix-container img {
         width: 100%;
         margin-bottom: 0.3em;
     }
-
     .titleseven-container img {
         width: 120px;
         margin-bottom: 0.3em;
     }
-
     .hour-container img {
         width: 100%;
-        margin-bottom: 0.3em;
+        /* margin-bottom: 0.3em; */
     }
-
     .rsvp-container img {
         width: 220px;
         margin-bottom: 0.3em;
+    }
+    .hour-container img {
+        width: 550px;
+    }
+    .flower-container img {
+        width: 25px;
+    }
+    .uber-container img {
+        width: 340px;
+    }
+    .discount-container img {
+        width: 250px;
+    }
+    .clickhere-container img {
+        width: 80px;
     }
 }
 
@@ -311,91 +359,88 @@ body {
     .hero {
         height: 100vh;
     }
-
     .content-home {
         max-width: 100%;
     }
-
     .welcome-container img {
         width: 700px;
         margin-top: 5em;
         margin-bottom: 5em;
     }
-
     .title-container img {
         width: 300px;
         margin-bottom: 5em;
     }
-
     .duo-container img {
         width: 300px;
         margin-bottom: 5em;
     }
-
     .date-container img {
         width: 150px;
         margin-bottom: 15em;
     }
-
     .titleTwo-container img {
         width: 320px;
         margin-bottom: 5em;
     }
-
     .titileTree-container img {
         width: 300px;
         margin-bottom: 5em;
     }
-
     .location-container img {
-        width: 200px;
+        width: 270px;
         margin-bottom: 5em;
     }
-
     .castle-container img {
         width: 900px;
         margin-bottom: 5em;
     }
-
     .dinner-container img {
         width: 100%;
         margin-bottom: 5em;
     }
-
     .titlefour-container img {
         width: 200px;
         margin-bottom: 5em;
     }
-
-
     .zipcode-container img {
         width: 350px;
         margin-bottom: 5em;
     }
-
     .titlefive-container img {
         width: 150px;
         margin-bottom: 5em;
     }
-
     .titlesix-container img {
         width: 370px;
         margin-bottom: 5em;
     }
-
     .titleseven-container img {
         width: 220px;
         margin-bottom: 5em;
     }
-
     .hour-container img {
         width: 100%;
-        margin-bottom: 5em;
+        /* margin-bottom: 5em; */
     }
-
     .rsvp-container img {
         width: 250px;
         margin-bottom: 5em;
+    }
+    .hour-container img {
+        width: 650px;
+    }
+    .flower-container img {
+        width: 25px;
+    }
+    .uber-container img {
+        width: 400px;
+    }
+    .discount-container img {
+        width: 280px;
+    }
+    .clickhere-container img {
+        width: 100px;
     }
 }
 
@@ -403,88 +448,86 @@ body {
     .hero {
         height: 100vh;
     }
-
     .content-home {
         max-width: 100%;
     }
-
     .welcome-container img {
         width: 100%;
         margin-bottom: 10em;
     }
-
     .title-container img {
         width: 600px;
         margin-bottom: 10em;
     }
-
     .duo-container img {
         width: 600px;
         margin-bottom: 10em;
     }
-
     .date-container img {
         width: 300px;
         margin-bottom: 10em;
     }
-
     .titleTwo-container img {
         width: 620px;
         margin-bottom: 10em;
     }
-
     .titileTree-container img {
         width: 600px;
         margin-bottom: 10em;
     }
-
     .location-container img {
-        width: 350px;
+        width: 500px;
         margin-bottom: 10em;
     }
-
     .castle-container img {
         width: 100%;
         margin-bottom: 10em;
     }
-
     .dinner-container img {
         width: 100%;
         margin-bottom: 10em;
     }
-
     .titlefour-container img {
         width: 400px;
         margin-bottom: 10em;
     }
-
     .zipcode-container img {
         width: 700px;
         margin-bottom: 10em;
     }
-
     .titlefive-container img {
         width: 300px;
         margin-bottom: 10em;
     }
-
     .titlesix-container img {
         width: 700px;
         margin-bottom: 10em;
     }
-
     .titleseven-container img {
         width: 300px;
         margin-bottom: 10em;
     }
-
     .hour-container img {
         width: 100%;
-        margin-bottom: 10em;
+        /* margin-bottom: 10em; */
     }
-
     .rsvp-container img {
         width: 350px;
         margin-bottom: 10em;
+    }
+    .hour-container img {
+        width: 100%;
+    }
+    .flower-container img {
+        width: 60px;
+    }
+    .uber-container img {
+        width: 790px;
+    }
+    .discount-container img {
+        width: 600px;
+    }
+    .clickhere-container img {
+        width: 200px;
     }
 }

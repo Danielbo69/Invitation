@@ -1,0 +1,375 @@
+body {
+    background-image: url(../img/Fondos\ vacios/Fondo-AltoRides.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container_ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#title img {
+    width: 160px;
+    padding: 10px;
+}
+
+#steps img {
+    width: 180px;
+    padding: 20px;
+}
+
+#download img {
+    width: 90px;
+}
+
+#click img {
+    width: 45px;
+    padding: 5px;
+}
+
+#create img {
+    width: 90px;
+}
+
+#selectOption img {
+    width: 220px;
+    padding: 10px;
+}
+
+#promotion img {
+    width: 230px;
+    padding: 10px;
+}
+
+#ride img {
+    width: 110px;
+    padding: 5px;
+}
+
+#sunsetCove img {
+    width: 135px;
+    padding: 5px;
+}
+
+#confirm img {
+    width: 130px;
+    padding: 10px;
+}
+
+#botonBook img {
+    width: 200px;
+    padding: 10px;
+}
+
+#dayHours img {
+    width: 200px;
+    padding: 10px;
+}
+
+#carDay img {
+    width: 220px;
+    padding: 10px;
+}
+
+#loveSee img {
+    width: 160px;
+    padding: 30px;
+}
+
+.footer-container img {
+    width: 100%;
+}
+
+@media only screen and (min-width:425px) and (max-width:767px) {
+    #title img {
+        width: 200px;
+        padding: 10px;
+    }
+    #steps img {
+        width: 200px;
+        padding: 20px;
+    }
+    #download img {
+        width: 120px;
+    }
+    #click img {
+        width: 48px;
+        padding: 5px;
+    }
+    #create img {
+        width: 120px;
+    }
+    #selectOption img {
+        width: 290px;
+        padding: 10px;
+    }
+    #promotion img {
+        width: 290px;
+        padding: 10px;
+    }
+    #ride img {
+        width: 120px;
+        padding: 5px;
+    }
+    #sunsetCove img {
+        width: 148px;
+        padding: 5px;
+    }
+    #confirm img {
+        width: 148px;
+        padding: 10px;
+    }
+    #botonBook img {
+        width: 248px;
+        padding: 10px;
+    }
+    #dayHours img {
+        width: 260px;
+        padding: 10px;
+    }
+    #carDay img {
+        width: 300px;
+        padding: 10px;
+    }
+    #loveSee img {
+        width: 220px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:976px) {
+    #title img {
+        width: 300px;
+        padding: 10px;
+    }
+    #steps img {
+        width: 280px;
+        padding: 20px;
+    }
+    #download img {
+        width: 180px;
+    }
+    #click img {
+        width: 85px;
+        padding: 5px;
+    }
+    #create img {
+        width: 180px;
+    }
+    #selectOption img {
+        width: 420px;
+        padding: 10px;
+    }
+    #promotion img {
+        width: 430px;
+        padding: 10px;
+    }
+    #ride img {
+        width: 210px;
+        padding: 5px;
+    }
+    #sunsetCove img {
+        width: 235px;
+        padding: 5px;
+    }
+    #confirm img {
+        width: 230px;
+        padding: 10px;
+    }
+    #botonBook img {
+        width: 400px;
+        padding: 10px;
+    }
+    #dayHours img {
+        width: 400px;
+        padding: 10px;
+    }
+    #carDay img {
+        width: 420px;
+        padding: 10px;
+    }
+    #loveSee img {
+        width: 260px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width:977px) and (max-width:1067px) {
+    #title img {
+        width: 300px;
+        padding: 10px;
+    }
+    #steps img {
+        width: 280px;
+        padding: 20px;
+    }
+    #download img {
+        width: 180px;
+    }
+    #click img {
+        width: 85px;
+        padding: 5px;
+    }
+    #create img {
+        width: 180px;
+    }
+    #selectOption img {
+        width: 420px;
+        padding: 10px;
+    }
+    #promotion img {
+        width: 430px;
+        padding: 10px;
+    }
+    #ride img {
+        width: 210px;
+        padding: 5px;
+    }
+    #sunsetCove img {
+        width: 235px;
+        padding: 5px;
+    }
+    #confirm img {
+        width: 230px;
+        padding: 10px;
+    }
+    #botonBook img {
+        width: 400px;
+        padding: 10px;
+    }
+    #dayHours img {
+        width: 400px;
+        padding: 10px;
+    }
+    #carDay img {
+        width: 420px;
+        padding: 10px;
+    }
+    #loveSee img {
+        width: 260px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width:1140px) and (max-width:1440px) {
+    #title img {
+        width: 300px;
+        padding: 10px;
+    }
+    #steps img {
+        width: 280px;
+        padding: 20px;
+    }
+    #download img {
+        width: 180px;
+    }
+    #click img {
+        width: 85px;
+        padding: 5px;
+    }
+    #create img {
+        width: 180px;
+    }
+    #selectOption img {
+        width: 420px;
+        padding: 10px;
+    }
+    #promotion img {
+        width: 430px;
+        padding: 10px;
+    }
+    #ride img {
+        width: 210px;
+        padding: 5px;
+    }
+    #sunsetCove img {
+        width: 235px;
+        padding: 5px;
+    }
+    #confirm img {
+        width: 230px;
+        padding: 10px;
+    }
+    #botonBook img {
+        width: 400px;
+        padding: 10px;
+    }
+    #dayHours img {
+        width: 400px;
+        padding: 10px;
+    }
+    #carDay img {
+        width: 420px;
+        padding: 10px;
+    }
+    #loveSee img {
+        width: 260px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width:1500px) and (max-width:2560px) {
+    #title img {
+        width: 300px;
+        padding: 10px;
+    }
+    #steps img {
+        width: 280px;
+        padding: 20px;
+    }
+    #download img {
+        width: 180px;
+    }
+    #click img {
+        width: 85px;
+        padding: 5px;
+    }
+    #create img {
+        width: 180px;
+    }
+    #selectOption img {
+        width: 420px;
+        padding: 10px;
+    }
+    #promotion img {
+        width: 430px;
+        padding: 10px;
+    }
+    #ride img {
+        width: 210px;
+        padding: 5px;
+    }
+    #sunsetCove img {
+        width: 235px;
+        padding: 5px;
+    }
+    #confirm img {
+        width: 230px;
+        padding: 10px;
+    }
+    #botonBook img {
+        width: 400px;
+        padding: 10px;
+    }
+    #dayHours img {
+        width: 400px;
+        padding: 10px;
+    }
+    #carDay img {
+        width: 420px;
+        padding: 10px;
+    }
+    #loveSee img {
+        width: 260px;
+        padding: 30px;
+    }
+}

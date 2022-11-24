@@ -23,7 +23,7 @@ function getLogin() {
 }
 
 //Símbolo de Carga
-window.onload = function () {
+window.onload = function() {
     var contenedor = document.getElementById('contenedor_loader');
     contenedor.style.visibility = 'hidden';
     contenedor.style.opacity = '0';
@@ -39,7 +39,7 @@ window.onload = function () {
     }
 }
 
-function showBodyToggle(){
+function showBodyToggle() {
     console.log('Entro al toggle')
     let div = document.getElementById('offcanvas-body');
     console.log(div.style.display)
@@ -47,7 +47,7 @@ function showBodyToggle(){
 
 }
 
-function closeBodyToggle(){
+function closeBodyToggle() {
     let div = document.getElementById('offcanvas-body');
     div.style.display = 'none';
 }

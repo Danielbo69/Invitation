@@ -1,5 +1,8 @@
 /*Símbolo de Carga*/
-*,*::after,*::before {
+
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -25,7 +28,6 @@
     height: 100px;
     width: 100px;
     border-radius: 100%;
-
     position: absolute;
     top: 0;
     left: 0;
@@ -33,17 +35,22 @@
     bottom: 0;
     margin: auto;
     -webkit-animation: girar 0.5s linear infinite;
-    -o-animation: girar 0.5s  linear infinite;
+    -o-animation: girar 0.5s linear infinite;
     animation: girar 0.5s linear infinite;
 }
 
 @keyframes girar {
-    from{transform: rotate(0deg);}
-    to{transform: rotate(360deg);}
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
 /**========= ANIMACION =========**/
+
 .animated {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
@@ -56,7 +63,6 @@
         opacity: 0;
         -webkit-transform: translateY(-20px);
     }
-
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -68,7 +74,6 @@
         opacity: 0;
         transform: translateY(-20px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -96,6 +101,19 @@
     transition: all 300ms ease;
 }
 
+.btn-back {
+    position: fixed;
+    padding: 20px;
+    text-align: left;
+    text-align: center;
+    z-index: 100;
+    transition: all 300ms ease;
+}
+
+.btn-back img {
+    width: 20px;
+}
+
 .btn-wsp img {
     width: 40px;
 }
@@ -103,6 +121,7 @@
 .btn-wsp img:hover {
     width: 45px;
 }
+
 .btn-wsp:hover {
     background: #d36464;
 }
@@ -134,7 +153,7 @@
     padding-top: 5px !important;
 }
 
-@media only screen and (min-width:240px) and (max-width:359px){
+@media only screen and (min-width:240px) and (max-width:359px) {
     .navlogo {
         height: 80px;
     }
@@ -145,7 +164,8 @@
         font-size: 20px !important;
     }
 }
-@media only screen and (min-width:360px) and (max-width:424px){
+
+@media only screen and (min-width:360px) and (max-width:424px) {
     .navlogo {
         height: 90px;
     }
@@ -157,7 +177,8 @@
         font-size: 20px !important;
     }
 }
-@media only screen and (min-width:425px) and (max-width:700px){
+
+@media only screen and (min-width:425px) and (max-width:700px) {
     .navlogo {
         /* height: 130px; */
     }
@@ -165,7 +186,8 @@
         font-size: 20px !important;
     }
 }
-@media only screen and (min-width:701px) and (max-width:768px){
+
+@media only screen and (min-width:701px) and (max-width:768px) {
     .navlogo {
         /* height: 95px; */
     }
@@ -176,7 +198,8 @@
         font-size: 20px !important;
     }
 }
-@media only screen and (min-width:1024px) and (max-width:1439px){
+
+@media only screen and (min-width:1024px) and (max-width:1439px) {
     .navlogo {
         /* height: 110px; */
     }
@@ -197,7 +220,7 @@
     }
 }
 
-@media only screen and (min-width:2560px){
+@media only screen and (min-width:2560px) {
     .navlogo {
         /* height: 110px; */
     }
@@ -207,7 +230,7 @@
     .navbar-toggler-icon {
         width: 3.5em !important;
         height: 3.5em !important;
-    }    
+    }
     .nav-link {
         font-size: 30px !important;
     }
@@ -217,9 +240,10 @@
     font-family: 'Amatic SC', cursive;
 }
 
-.nav-link.active, .nav-link:active {
+.nav-link.active,
+.nav-link:active {
     border-bottom: 1px solid #f27474;
-    color: #f27474  !important;
+    color: #f27474 !important;
 }
 
 .navbar-toggler {
@@ -239,7 +263,7 @@
     width: 100%;
 }
 
-#home{
+#home {
     position: fixed;
     right: 0px;
     left: 0px;
@@ -255,6 +279,6 @@
     font-size: 35px;
 }
 
- #offcanvas-body {
+#offcanvas-body {
     display: none;
- }
+}

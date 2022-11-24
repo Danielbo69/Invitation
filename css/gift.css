@@ -43,7 +43,7 @@ body {
     align-items: center;
 }
 
-.footer-containaer img {
+.footer-container img {
     width: 100%;
 }
 
@@ -51,80 +51,63 @@ body {
     .hero {
         height: 7vh !important;
     }
-
     .InstaC-container img {
         width: 190px;
     }
-
     .vipsalon-container img {
         width: 220px;
     }
-
     .tatimakeup-container img {
         width: 65px;
     }
-
 }
 
 @media only screen and (min-width:353px) and (max-width:424px) {
     .hero {
         height: 10vh !important;
     }
-
     .InstaC-container img {
         width: 220px;
     }
-
     .vipsalon-container img {
         width: 220px;
     }
-
     .tatimakeup-container img {
         width: 70px;
     }
-
 }
 
 @media only screen and (min-width:425px) and (max-width:767px) {
     .hero {
         height: 15vh !important;
     }
-
     .InstaC-container img {
         width: 250px;
     }
-
     .vipsalon-container img {
         width: 250px;
     }
-
     .tatimakeup-container img {
         width: 80px;
     }
-
 }
 
 @media only screen and (min-width:768px) and (max-width:976px) {
     .hero {
         height: 5vh !important;
     }
-
     .main-container a {
         margin-top: 5em;
     }
-
     .InstaC-container img {
         width: 500px;
     }
-
     .vipsalon-container img {
         width: 400px;
     }
-
     .tatimakeup-container img {
         width: 130px;
     }
-
 }
 
 @media only screen and (min-width:977px) and (max-width:1080px) {
@@ -134,11 +117,9 @@ body {
     .main-container a {
         margin-top: 5em;
     }
-
     .InstaC-container img {
         width: 100%;
     }
-
     .vipsalon-container img {
         width: 100%;
     }
@@ -151,15 +132,12 @@ body {
     .hero {
         height: 15vh !important;
     }
-
     .main-container a {
         margin-top: 10em;
     }
-
     .InstaC-container img {
         width: 100%;
     }
-
     .vipsalon-container img {
         width: 100%;
     }
@@ -172,15 +150,12 @@ body {
     .hero {
         height: 22vh !important;
     }
-
     .main-container a {
         margin-top: 10em;
     }
-
     .InstaC-container img {
         width: 900px;
     }
-
     .vipsalon-container img {
         width: 900px;
     }

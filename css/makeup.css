@@ -49,13 +49,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .browaholics-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer-containaer img {
+.footer-container img {
     width: 100%;
 }
 
@@ -63,129 +64,103 @@ body {
     .hero {
         height: 7vh !important;
     }
-
     .title-container img {
         width: 220px;
     }
-
     .InstaC-container img {
         width: 140px;
     }
-
     .vipsalon-container img {
         width: 125px;
     }
-
     .tatimakeup-container img {
         width: 130px;
     }
-
     .browaholics-container img {
         width: 130px;
     }
-
 }
 
 @media only screen and (min-width:353px) and (max-width:413px) {
     .hero {
         height: 9.5vh !important;
     }
-
     .title-container img {
         width: 250px;
     }
-
     .InstaC-container img {
         width: 140px;
     }
-
     .vipsalon-container img {
         width: 125px;
     }
-
     .tatimakeup-container img {
         width: 140px;
     }
     .browaholics-container img {
         width: 120px;
     }
-
 }
 
 @media only screen and (min-width:414px) and (max-width:767px) {
     .hero {
         height: 15vh !important;
     }
-
     .title-container img {
         width: 250px;
     }
-
     .InstaC-container img {
         width: 140px;
     }
-
     .vipsalon-container img {
         width: 125px;
     }
-
     .tatimakeup-container img {
         width: 135px;
     }
     .browaholics-container img {
         width: 120px;
     }
-
 }
 
 @media only screen and (min-width:768px) and (max-width:976px) {
     .hero {
         height: 25vh !important;
     }
-
     .title-container img {
         width: 450px;
     }
-
     .InstaC-container img {
         width: 160px;
         margin-top: 5em;
     }
-
     .vipsalon-container img {
         width: 140px;
     }
-
     .tatimakeup-container img {
         width: 150px;
     }
     .browaholics-container img {
         width: 130px;
     }
-
 }
 
 @media only screen and (min-width:977px) and (max-width:1080px) {
     .hero {
         height: 23vh !important;
     }
-
     .main-container a {
         margin-top: 5em;
     }
-
     .title-container img {
         width: 550px;
     }
-
     .InstaC-container img {
         width: 260px;
     }
-
     .vipsalon-container img {
         width: 250px;
     }
-
     .tatimakeup-container img {
         width: 260px;
     }
@@ -198,23 +173,18 @@ body {
     .hero {
         height: 45vh !important;
     }
-
     .main-container a {
         margin-top: 10em;
     }
-
     .title-container img {
         width: 800px;
     }
-
     .InstaC-container img {
         /* width: 370px; */
     }
-
     .vipsalon-container img {
         /* width: 330px; */
     }
-
     .tatimakeup-container img {
         /* width: 370px; */
     }
@@ -227,23 +197,18 @@ body {
     .hero {
         height: 22vh !important;
     }
-
     .main-container a {
         margin-top: 10em;
     }
-
     .title-container img {
         width: 100%;
     }
-
     .InstaC-container img {
         /* width: 100%; */
     }
-
     .vipsalon-container img {
         /* width: 100%; */
     }
-
     .tatimakeup-container img {
         /* width: 100%; */
     }
